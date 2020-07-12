@@ -14,8 +14,8 @@ fig, axis = plt.subplots(1, 1)
 n = 100
 eps = 1e-20
 
-da = scipy.stats.norm(0, 1)
-db = scipy.stats.norm(1, 1)
+da = scipy.stats.norm(1, 3)
+db = scipy.stats.norm(10, 3)
 
 xa = da.rvs(n)
 pa = da.pdf(xa) + eps
